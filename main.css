@@ -1,0 +1,140 @@
+/* Apply a basic reset to remove default margin and padding on elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body and set font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    background-color: #dd0f0f;
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #c71616;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:  bisque;
+    padding: 10px 20px;
+}
+
+/* Apply styles to the main content section */
+main {
+    padding: 20px;
+}
+
+.content {
+    background-color: bisque;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+}
+
+/* Style the dual-color content section */
+.dual-color {
+    background-color:  bisque;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #d61515;
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+#bar {
+flex-direction: column ;
+}
+/* Additional styles for the Service page */
+
+/* Style the Service section */
+#service {
+    background-color: bisque;
+}
+
+/* Style the title and description */
+#service h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#service .content {
+    padding: 20px;
+    text-align: center;
+}
+
+#service img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the dual-color content section */
+#service .dual-color {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#service .left-column, #service .right-column {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style the lists and text in the left column */
+#service ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Style the text in the right column */
+#service .right-column p {
+    text-align: left;
+}
+.logo{
+    margin-left: -1200px;
+    margin-bottom: -100px;
+}
+    
+
